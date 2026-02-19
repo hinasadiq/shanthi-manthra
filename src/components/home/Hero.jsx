@@ -11,9 +11,9 @@ export default function Hero() {
       <div className="absolute inset-0 bg-ink/45" />
 
       <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col justify-center px-6 text-cream">
-        <p className="inline-block w-fit rounded-full bg-cream/15 px-4 py-1 text-xs font-medium ring-1 ring-cream/25">
+        {/* <p className="inline-block w-fit rounded-full bg-cream/15 px-4 py-1 text-xs font-medium ring-1 ring-cream/25">
           Peace • Balance • Wellness
-        </p>
+        </p> */}
 
         <h1 className="mt-5 max-w-2xl text-3xl font-semibold leading-tight sm:text-5xl">
           Authentic Yoga for a Calm and Healthy Life

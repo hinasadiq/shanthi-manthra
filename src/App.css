@@ -1,8 +1,8 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }
 
 .logo {
@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px; /* adjust if needed */
+}
+
