@@ -1,5 +1,3 @@
-import centerImg from "../../assets/founder/yogaimg1.jpeg";
-import founderImg from "../../assets/founder/trainer-img-bg.png";
 
 export default function AboutSection() {
   return (
@@ -67,7 +65,7 @@ export default function AboutSection() {
             {/* Center Image */}
             <div className="overflow-hidden rounded-3xl ring-1 ring-ink/10">
               <img
-                src={centerImg}
+                src="/assets/founder/yogaimg1.jpeg"
                 alt="Shanthi Manthra Yoga Center"
                 className="h-[420px] w-full object-cover"
                 loading="lazy"
@@ -88,7 +86,7 @@ export default function AboutSection() {
               {/* LEFT: Image */}
               <div className="overflow-hidden rounded-3xl bg-cream ring-1 ring-ink/10">
                 <img
-                  src={founderImg}
+                src="/assets/founder/trainer-img-bg.png"
                   alt="Founder / Trainer"
                   className="h-[360px] w-full object-cover sm:h-[420px]"
                   loading="lazy"

@@ -1,10 +1,10 @@
-import heroImg from "../../assets/hero/heroimg.jpg";
+
 
 export default function Hero() {
   return (
     <section id="top" className="relative h-[90vh] overflow-hidden">
       <img
-        src={heroImg}
+        src="/assets/hero/heroimg.jpg"
         alt="Yoga meditation background"
         className="absolute inset-0 h-full w-full object-cover"
       />

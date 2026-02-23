@@ -49,22 +49,15 @@
 import { useRef } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-import g1 from "../../assets/gallery/heroyogaimg2.jpeg";
-import g2 from "../../assets/gallery/heroyogaimg3.jpeg";
-import g3 from "../../assets/gallery/heroyogaimg4.jpeg";
-import g4 from "../../assets/gallery/heroyogaimg5.jpeg";
-import g5 from "../../assets/gallery/heroyogaimg6.jpeg";
-import g6 from "../../assets/gallery/yogaimg1.jpeg";
 
 const images = [
-  { src: g1, title: "Group Training" },
-  { src: g2, title: "Pranayama Practice" },
-  { src: g3, title: "Workshop Moments" },
-  { src: g4, title: "Therapy Session" },
-  { src: g5, title: "Meditation Class" },
-  { src: g6, title: "Yoga Session" },
+  { src: "/assets/gallery/heroyogaimg2.jpeg", title: "Group Training" },
+  { src: "/assets/gallery/heroyogaimg3.jpeg", title: "Pranayama Practice" },
+  { src: "/assets/gallery/heroyogaimg4.jpeg", title: "Workshop Moments" },
+  { src: "/assets/gallery/heroyogaimg5.jpeg", title: "Therapy Session" },
+  { src: "/assets/gallery/heroyogaimg6.jpeg", title: "Meditation Class" },
+  { src: "/assets/gallery/yogaimg1.jpeg", title: "Yoga Session" },
 ];
-
 export default function GallerySection() {
   const scrollRef = useRef(null);
 

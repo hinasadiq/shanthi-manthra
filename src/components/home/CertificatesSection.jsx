@@ -1,25 +1,23 @@
-import certBSS from "../../assets/certificates/1.jpeg";
-import certPMKY from "../../assets/certificates/2.jpeg";
-import certYCB from "../../assets/certificates/3.jpeg";
+
 
 const certificates = [
   {
     title: "Diploma in Yoga Teacher Training",
     org: "Bharat Sevak Samaj (Govt. of India)",
     year: "2017–2018",
-    image: certBSS,
+    image: "/assets/certificates/1.jpeg",
   },
   {
     title: "Yoga Instructor – NSQF Level 4",
     org: "Skill India / PMKVY",
     year: "2019",
-    image: certPMKY,
+    image: "/assets/certificates/2.jpeg",
   },
   {
     title: "YCB Certification",
     org: "Ministry of AYUSH, Govt. of India",
     year: "Certified",
-    image: certYCB,
+    image: "/assets/certificates/3.jpeg",
   },
 ];
 

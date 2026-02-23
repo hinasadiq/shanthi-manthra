@@ -95,7 +95,7 @@
 //   );
 // }
 import { useState } from "react";
-import logo from "../../assets/brand/manthra2.png";
+
 
 const NAV_LINKS = [
   { label: "Home", href: "#top" },
@@ -115,7 +115,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#top" className="flex items-center gap-3">
           <img
-            src={logo}
+            src="/assets/brand/manthra2.png"
             alt="Logo"
             className="h-12 sm:h-14 md:h-16 w-auto grayscale brightness-75 contrast-125"
           />
